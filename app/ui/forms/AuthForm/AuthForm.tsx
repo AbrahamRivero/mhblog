@@ -12,7 +12,7 @@ type Props = {
 
 const AuthForm = ({ type }: Props) => {
 	return (
-		<AnimationWrapper>
+		<AnimationWrapper keyValue={type}>
 			<section className="h-cover flex items-center justify-center">
 				<form className="w-[80%] max-w-[400px]" action="">
 					<h1 className="text-4xl font-gelasio capitalize text-center mb-24">
