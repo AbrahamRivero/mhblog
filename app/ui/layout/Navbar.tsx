@@ -40,7 +40,7 @@ const Navbar = () => {
 					className="hidden md:flex gap-2 link items-center"
 				>
 					<HiMiniPencilSquare />
-					<p className='text-xl'>Escribir</p>
+					<p className="text-xl">Escribir</p>
 				</Link>
 
 				<Link href={SIGN_IN_URL} className="btn-dark py-2">

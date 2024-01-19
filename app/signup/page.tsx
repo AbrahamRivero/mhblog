@@ -1,6 +1,5 @@
+import AuthForm from '../ui/forms/AuthForm/AuthForm'
+
 export default function SignUp() {
-    return (
-      <main>SignUp</main>
-    );
-  }
-  
+	return <AuthForm type="sign-up" />
+}
